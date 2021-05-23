@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/linearLayout">
+
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="com.example.mid.TODOfrag"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        tools:layout="@layout/fragment_t_o_d_ofrag"
+        tools:layout_conversion_absoluteHeight="53dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <fragment
+        android:id="@+id/fragment5"
+        android:name="com.example.mid.Addfrag"
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        tools:layout="@layout/fragment_addfrag"
+        tools:layout_conversion_absoluteHeight="65dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <fragment
+        android:id="@+id/fragment6"
+        android:name="com.example.mid.EMPfrag"
+        android:layout_width="wrap_content"
+        android:layout_height="397dp"
+        tools:layout="@layout/fragment_e_m_pfrag"
+        tools:layout_conversion_absoluteHeight="647dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnAdd"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:backgroundTint="@color/teal_700"
+        android:elevation="6dp"
+        android:src="@drawable/add"
+        app:fabSize="normal"
+        tools:layout_conversion_absoluteHeight="55dp"
+        tools:layout_conversion_absoluteWidth="55dp"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="813dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_conversion_absoluteHeight="0dp"
+        tools:layout_editor_absoluteY="916dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="411dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout><![CDATA[
+
+    />
+
+
+]]>
+</LinearLayout>

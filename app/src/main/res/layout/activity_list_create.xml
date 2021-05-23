@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="1dp"
+    android:orientation="vertical"
+    tools:context=".ListCreate">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.mid.ListCreatefrag"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="1dp"
+        tools:layout="@layout/fragment_list_createfrag" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.mid.NameEnterfrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        tools:layout="@layout/fragment_name_enterfrag" />
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.mid.ItemAddfrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        tools:layout="@layout/fragment_item_addfrag" />
+
+    <fragment
+        android:id="@+id/fragment7"
+        android:name="com.example.mid.Iconfrag"
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:layout_marginTop="1dp"
+        tools:layout="@layout/fragment_iconfrag" />
+
+    <fragment
+        android:id="@+id/fragment8"
+        android:name="com.example.mid.Priorityfrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        tools:layout="@layout/fragment_priorityfrag" />
+
+    <fragment
+        android:id="@+id/fragment9"
+        android:name="com.example.mid.Datefrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        tools:layout="@layout/fragment_datefrag" />
+
+    <fragment
+        android:id="@+id/fragment10"
+        android:name="com.example.mid.Timefrag"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="1dp"
+        tools:layout="@layout/fragment_timefrag" />
+
+    <fragment
+        android:id="@+id/fragment11"
+        android:name="com.example.mid.Repeatfrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        tools:layout="@layout/fragment_repeatfrag" />
+
+    <fragment
+        android:id="@+id/fragment12"
+        android:name="com.example.mid.Savefrag"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="1dp"
+        tools:layout="@layout/fragment_savefrag" />
+</LinearLayout>
